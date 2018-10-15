@@ -1,4 +1,4 @@
-package com.xt.m_dialog;
+package com.xt.a_dialog;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -18,12 +18,12 @@ import android.view.inputmethod.InputMethodManager;
 /**
  * Created by xuti on 2018/9/29.
  */
-public abstract class MBaseDialog extends Dialog {
+public abstract class ABaseDialog extends Dialog {
     private Context context;    //下面三个定义的跟上面讲得就是一样的啦
     private OnItemCheckListener onItemCheckListener;
     protected View view;    //看到这里我们定义的就清楚，我们也是借用view这个父类来引入布局的
 
-    public MBaseDialog(Context context) {
+    public ABaseDialog(Context context) {
         super(context, R.style.BaseDialog);
         this.context = context;
     }

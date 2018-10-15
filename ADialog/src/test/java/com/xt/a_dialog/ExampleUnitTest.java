@@ -1,4 +1,4 @@
-package com.xt.m_dialog;
+package com.xt.a_dialog;
 
 import org.junit.Test;
 

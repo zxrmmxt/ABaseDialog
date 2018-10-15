@@ -1,4 +1,4 @@
-package com.xt.m_dialog;
+package com.xt.a_dialog;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
